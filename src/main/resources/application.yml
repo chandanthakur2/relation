@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: relation
+  datasource:
+    url: jdbc:postgresql://localhost:5432/local
+    username: chandan.thakur1
+    password: root
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      data-source-properties:
+        string type: unspecified
